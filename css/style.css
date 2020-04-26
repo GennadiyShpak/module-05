@@ -1,151 +1,153 @@
 body {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
-    padding: 48px 0px 105px 0px;
+  padding: 48px 0px 105px 0px;
 }
 
 a {
-    text-decoration: none;
-    margin: 0 auto;
+  text-decoration: none;
+  margin: 0 auto;
 }
 
 h1 {
-    margin: 0;
-    padding: 0;
-    color: #555252;
-    font-size: 30px;
-    font-weight: 300;
-    line-height: 32px;
-    text-transform: uppercase;
-    letter-spacing: -0.6px;
+  margin: 0;
+  padding: 0;
+  color: #555252;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: -0.6px;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .container {
-    max-width: 1140px;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
 }
 
 h1::first-letter {
-    color: #1abc9c;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: -0.6px;
+  color: #1abc9c;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: -0.6px;
 }
 
 .main__menu li {
-    letter-spacing: -0.31px;
-    float: left;
+  letter-spacing: -0.31px;
+  float: left;
 }
 
 .main__menu {
-    padding-top: 5px;
-    float: right;
+  padding-top: 5px;
+  float: right;
 }
 
 .main__menu li:not(:last-child) {
-    padding-right: 29px;
+  padding-right: 29px;
 }
 
 .nav__menu a {
-    color: #0f0101;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 11px;
-    text-transform: uppercase;
-    font-family: "Open Sans", sans-serif;
+  color: #0f0101;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 11px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
 }
 
 .clearfix::after {
-    display: table;
-    content: "";
-    clear: both;
+  display: table;
+  content: "";
+  clear: both;
 }
 
 .logo {
-    text-transform: uppercase;
-    float: left;
+  text-transform: uppercase;
+  float: left;
 }
 
 .nav__menu a:hover {
-    color: #1abc9c;
+  color: #1abc9c;
 }
-
-
 
 /* SLIDER */
 .slider {
-    max-width: 1600px;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main__pict {
+  object-fit: cover;
 }
 
 .overlay {
-    background-color: rgba(0, 0, 2, 0.52);
-    width: 1600px;
-    height: 600px;
-    position: absolute;
-    left: 0;
-    top: 0;
+  background-color: rgba(0, 0, 2, 0.52);
+  width: 1600px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .slider__btn {
-    width: 104px;
-    height: 104px;
-    color: #fff;
-    background-color: #1abc9c;
+  width: 104px;
+  height: 104px;
+  color: #fff;
+  background-color: #1abc9c;
 }
 
 .prev {
-    float: left;
-    background-image: url(../img/arrow__left.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
+  float: left;
+  background-image: url(../img/arrow__left.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
 
 .next {
-    float: right;
-    background-image: url(../img/arrow__right.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
+  float: right;
+  background-image: url(../img/arrow__right.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
 }
 
 .slider__text {
-    text-align: center;
-
+  margin: 0 auto;
+  margin-top: 220px;
+  width: 100%;
 }
 
 h2 {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 60px;
-    font-weight: 700;
-    letter-spacing: -1.2px;
-    line-height: 82px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: -1.2px;
+  line-height: 82px;
 }
 
 .slider__text p {
-    color: #fff;
-    font-weight: 300;
-    letter-spacing: -0.48px;
-    line-height: 54px;
-
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: -0.48px;
+  line-height: 54px;
 }
 
 /* SHOP */
