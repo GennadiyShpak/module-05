@@ -258,7 +258,7 @@ h2 {
   visibility: visible;
 }
 
-.shop__item-part-hover:hover {
+.shop__item:hover {
   background-color: #1abc9c;
 }
 
