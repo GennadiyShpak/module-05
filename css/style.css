@@ -70,10 +70,13 @@ h1::first-letter {
   clear: both;
 }
 
+.logo__link {
+  color: #555252;
+}
+
 .logo {
   text-transform: uppercase;
   float: left;
-  color: #555252;
 }
 
 .nav__menu a:hover {
