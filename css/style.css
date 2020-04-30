@@ -109,7 +109,8 @@ h1::first-letter {
 
 .slider__text {
   position: absolute;
-  width: 738px;
+  max-width: 738px;
+  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
